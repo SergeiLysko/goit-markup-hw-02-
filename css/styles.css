@@ -21,22 +21,46 @@ h6,
 p {
     margin-top: 0;
 }
-/* HADER */
+
+    /* HADER */
+
 .header{
     font-family:'roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;}
 
- .pages{
-    color: var(--header-text-color
-    );
- }
+        .header-link:hover,
+        .header-link:focus {
+            color: var(--accent-color)
+        }
+    
+        .header-link {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--second-title-color)
 
-.body{
-    font-family: 'Roboto';
-    color: var (var(--second-text-color));
+        }
+.link {
+    text-decoration: none;}
+    
+    .list{
+        font-family: 'Roboto';
+        font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+
     }
+    
+.body{
+    font-family: "Roboto", sans-serif;
+    color:var(--second-text-color);
+    }
+
       /* hero */
 
   .first{
@@ -67,5 +91,15 @@ p {
     .hero-btn{
         color: var(--fourth-text-color);
         background: var(--accent-color);
+    }
+    .studio{
+        color: var(--header-text-color);
+    }
+    .header-logo{
+        color: var(--accent-color);
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
     }
 
