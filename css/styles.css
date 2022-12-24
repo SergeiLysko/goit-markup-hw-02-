@@ -1,3 +1,64 @@
-.root{
-    
+:root {
+    --main-title-color: #FFFFFF;
+    --second-title-color: #212121;
+    --first-text-color: rgba(255, 255, 255, 0.6);
+    --second-text-color: #757575;
+    --third-text-color: #212121;
+    --fourth-text-color: #FFFFFF;
+    --first-button-color: #FFFFFF;
+    --second-button-color: #212121;
+    --header-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-colorr: #2F303A;
+    --background-colorr-team: #F5F4FA;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
 }
+/* HADER */
+.header{
+    font-family:'roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;}
+
+ .pages{
+    color: var(--header-text-color
+    );
+ }
+
+.body{
+    color: var (var(--second-text-color));
+    }
+      /* hero */
+
+  .first{
+    font-weight: 900;
+        font-size: 44px;
+  }  
+  .menu {
+        font-weight: 700;
+        font-size: 36px;
+  }
+  .caine{
+    display: none;
+  }
+  .ohne{
+    font-weight: 500;
+        font-size: 16px;
+  }
+  .idea {
+    font-weight: 400;
+        font-size: 14px;
+        color: var(--second-text-color);
+  }
+  .button{
+  hover:var(--accent-color);
+  focus:var(--accent-color);
+  }
