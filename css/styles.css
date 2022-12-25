@@ -101,6 +101,14 @@ p {
         color: var(--fourth-text-color);
         background: var(--accent-color);
     }
+    .hero-bt:hover,
+    .hero-bt:focus {
+        cursor: pointer;
+         color: var(--first-button-color);
+        background: var(--accent-color);
+        }
+
+    
     .studio{
         color: var(--header-text-color);
     }
