@@ -60,7 +60,7 @@ p {
     
     .list{
        
-        /* font-style: normal; */
+        font-style: normal;
             font-weight: 400;
             font-size: 14px;
 
@@ -133,6 +133,14 @@ font-weight: 500;
         color: var(--fourth-text-color);
         background: var(--accent-color);
     }
+    .hero-bt{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+    }
     .hero-bt:hover,
     .hero-bt:focus {
         cursor: pointer;
@@ -167,9 +175,12 @@ font-weight: 500;
         background: var(--background-colorr);
     }
 .bang{
+
+    
     color: var(--footer-colorr);
 }
 .bang-w{
+    
     color: var(--fourth-text-color)
 }
 .header-adress{
@@ -178,5 +189,20 @@ font-weight: 500;
 .header-tel {
     color: var(--second-text-color);
 }
+.pages{
+    font-style: normal;
+}
 
-
+.main-port{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.main-right{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--second-text-color);
+}
