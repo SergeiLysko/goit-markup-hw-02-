@@ -124,9 +124,16 @@ p {
         font-weight: 700;
         font-size: 26px;
     }
-    .adretel{
-            color: var(--second-text-color);
+    .header-adress:hover,
+    .header-adress:focus {
+        color: var(--accent-color);
+    }
+        .header-tel:hover,
+        .header-tel:focus {
+            color: var(--accent-color);
         }
+          
+    
     .fot {
         background: var(--background-colorr);
     }
@@ -135,5 +142,11 @@ p {
 }
 .bang-w{
     color: var(--fourth-text-color)
+}
+.header-adress{
+    color: var(--second-text-color);
+}
+.header-tel {
+    color: var(--second-text-color);
 }
 
