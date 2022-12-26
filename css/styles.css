@@ -12,6 +12,7 @@
     --background-colorr: #2F303A;
     --background-colorr-team: #F5F4FA;
     --footer-colorr:rgba(255, 255, 255, 0.6);
+    --back-colorr: #E5E5E5;
 }
 
 h1,
@@ -26,11 +27,11 @@ p {
 
     /* HADER */
 
-.header{
+/* .header{
     font-family:'roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;}
+    line-height: 1,14;} */
 
         .header-link:hover,
         .header-link:focus {
@@ -59,15 +60,22 @@ p {
     }
     
 .body{
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     color:var(--second-text-color);
+    background-color:var(--back-colorr)
     }
 
       /* hero */
-
+.hero{
+    background-color: var(--background-colorr);
+}
   .first{
     font-weight: 900;
-        font-size: 44px;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--first-button-color);
   }  
   .menu {
         font-weight: 700;
@@ -81,7 +89,8 @@ p {
         font-size: 16px;
   }
   .idea {
-    
+        line-height: 1,71;
+        letter-spacing: 0.03em;
         font-size: 14px;
         color: var(--second-text-color);
   }
@@ -99,7 +108,7 @@ p {
     .hero-btn{
         font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
+            line-height:1.87;
         color: var(--fourth-text-color);
         background: var(--accent-color);
     }
