@@ -46,8 +46,8 @@ p {
         }
     
         .header-link {
-            font-family: Roboto;
-            font-style: normal;
+            
+           
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
@@ -59,8 +59,8 @@ p {
     text-decoration: none;}
     
     .list{
-        font-family: 'Roboto';
-        font-style: normal;
+       
+        /* font-style: normal; */
             font-weight: 400;
             font-size: 14px;
 
@@ -69,9 +69,8 @@ p {
 .body{
     font-family: "Roboto", sans-serif;
     font-family: "Raleway", sans-serif;
-    color:var(--econd-text-color);
+    color:var(--second-text-color);
     background-color:var(--back-colorr)
-  
     }
 
 
@@ -81,26 +80,39 @@ p {
 }
   .first{
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+        font-size: 44px;
+        line-height:1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     color: var(--first-button-color);
   }  
   .menu {
-        font-weight: 700;
+    font-weight: 700;
         font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
   }
   .caine{
     display: none;
   }
-  .ohne{
-    font-weight: 500;
-        font-size: 16px;
-  }
-  .idea {
-        line-height: 1.71;
+  .chpeta{
+    font-weight: 700;
+     font-size: 14px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
-        font-size: 14px;
+        text-transform: uppercase;
+  }
+  .ohne{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    }
+  .idea {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
         color: var(--second-text-color);
   }
   .hero-btn:hover,
@@ -138,7 +150,6 @@ p {
     .header-logo{
         color: var(--accent-color);
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
     }
@@ -167,4 +178,5 @@ p {
 .header-tel {
     color: var(--second-text-color);
 }
+
 
