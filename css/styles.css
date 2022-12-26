@@ -10,7 +10,9 @@
     --header-text-color: #212121;
     --accent-color: #2196F3;
     --background-colorr: #2F303A;
-    --background-colorr-team: #F5F4FA;}
+    --background-colorr-team: #F5F4FA;
+    --footer-colorr:rgba(255, 255, 255, 0.6);
+}
 
 h1,
 h2,
@@ -57,7 +59,7 @@ p {
     }
     
 .body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway" sans-serif;
     color:var(--second-text-color);
     }
 
@@ -112,6 +114,9 @@ p {
     .studio{
         color: var(--header-text-color);
     }
+        .studio2 {
+            color: var(--first-button-color);
+        }
     .header-logo{
         color: var(--accent-color);
     font-family: 'Raleway';
@@ -119,4 +124,16 @@ p {
         font-weight: 700;
         font-size: 26px;
     }
+    .adretel{
+            color: var(--second-text-color);
+        }
+    .fot {
+        background: var(--background-colorr);
+    }
+.bang{
+    color: var(--footer-colorr);
+}
+.bang-w{
+    color: var(--fourth-text-color)
+}
 
