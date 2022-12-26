@@ -14,6 +14,11 @@
     --footer-colorr:rgba(255, 255, 255, 0.6);
     --back-colorr: #E5E5E5;
 }
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
 h1,
 h2,
@@ -22,17 +27,19 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0;
+    margin: 0 auto;
 }
 
     /* HADER */
-
-/* .header{
-    font-family:'roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;} */
-
+    .container{
+        width: 1600px;
+        margin: 0 auto;
+       
+    }
+        li {
+            list-style-type: none;
+        
+        }
         .header-link:hover,
         .header-link:focus {
             color: var(--accent-color)
@@ -62,9 +69,11 @@ p {
 .body{
     font-family: "Roboto", sans-serif;
     font-family: "Raleway", sans-serif;
-    color:var(--second-text-color);
+    color:var(--econd-text-color);
     background-color:var(--back-colorr)
+  
     }
+
 
       /* hero */
 .hero{
