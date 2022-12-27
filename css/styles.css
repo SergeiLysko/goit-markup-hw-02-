@@ -13,6 +13,7 @@
     --background-colorr-team: #F5F4FA;
     --footer-colorr:rgba(255, 255, 255, 0.6);
     --back-colorr: #E5E5E5;
+    --button-active:#188CE8;
 }
 
 .ul{
@@ -135,7 +136,8 @@ font-weight: 500;
   .hero-btn:hover,
   .hero-btn:focus {
       cursor: pointer;
-      color: var(--accent-color);}
+      background-color: var(--button-active);
+    }
 
       .button{
         width: 200px;
@@ -162,7 +164,7 @@ font-weight: 500;
     .hero-bt:focus {
         cursor: pointer;
          color: var(--first-button-color);
-        background: var(--accent-color);
+        background: var(--button-active);
         }
 
     
