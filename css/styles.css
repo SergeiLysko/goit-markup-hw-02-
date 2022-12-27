@@ -14,6 +14,9 @@
     --footer-colorr:rgba(255, 255, 255, 0.6);
     --back-colorr: #E5E5E5;
 }
+.a{
+    text-decoration: none;
+}
 .ul{
     margin: 0;
     padding: 0;
@@ -38,6 +41,7 @@ p {
     }
         li {
             list-style-type: none;
+            
         
         }
         .header-link:hover,
@@ -46,8 +50,6 @@ p {
         }
     
         .header-link {
-            
-           
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
@@ -62,7 +64,9 @@ p {
        
         font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+                font-size: 14px;
+                line-height: 1.71;
+                letter-spacing: 0.03em;
 
     }
     
@@ -91,6 +95,7 @@ p {
         font-size: 36px;
         line-height: 1.16;
         letter-spacing: 0.03em;
+        color: var(--header-text-color);
   }
   .caine{
     display: none;
@@ -101,6 +106,7 @@ p {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: var(--header-text-color);
   }
   .ohne{
 font-weight: 500;
@@ -109,11 +115,16 @@ font-weight: 500;
     letter-spacing: 0.03em;
     }
   .idea {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
+        font-size: 14px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--second-text-color);
+  }
+  .idea2{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
   }
   .hero-btn:hover,
   .hero-btn:focus {
@@ -157,29 +168,52 @@ font-weight: 500;
         }
     .header-logo{
         color: var(--accent-color);
-    font-family: 'Raleway';
+        font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
     }
     .header-adress:hover,
     .header-adress:focus {
         color: var(--accent-color);
     }
+        .header-adress{
+            font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.02em;
+        }
         .header-tel:hover,
         .header-tel:focus {
             color: var(--accent-color);
         }
+        .header-tel{
+            font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.02em;
+        }
     .mainteam{
         background-color: var(--background-colorr-team);
+    }
+    .team{
+        background-color: var(--first-button-color);
     }
     
     .fot {
         background: var(--background-colorr);
     }
 .bang{
-
-    
     color: var(--footer-colorr);
+}
+.bang:hover,
+.bang:focus{
+    color: var(--accent-color);
+}
+.bang-w:hover,
+.bang-w:focus {
+    color: var(--accent-color);
 }
 .bang-w{
     
@@ -202,7 +236,6 @@ font-weight: 500;
         letter-spacing: 0.06em;
 }
 .main-right{
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
