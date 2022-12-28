@@ -35,6 +35,23 @@ li {
     list-style-type: none;
    
 }
+        .visually-hidden {
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            border: 0;
+            padding: 0;
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            margin: -1px;
+        }
+    
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--second-text-color);
+        }
 
     /* HADER */
     .container{
@@ -68,23 +85,7 @@ li {
                 letter-spacing: 0.03em;
 
     }
-    .visually-hidden{
-        position: absolute;
-            white-space: nowrap;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-            border: 0;
-            padding: 0;
-            clip: rect(0 0 0 0);
-            clip-path: inset(50%);
-            margin: -1px;
-    }
-    
-body{
-    font-family: 'Roboto', sans-serif;
-    color:var(--second-text-color);
-    }
+
 
 
       /* hero */
@@ -139,12 +140,12 @@ body{
       background-color: var(--button-active);
     }
 
-      .button{
+      /* .button{
         width: 200px;
         height: 50px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
-      }
+      } */
     .hero-btn{
         font-family: inherit;
         font-weight: 700;
@@ -167,7 +168,7 @@ body{
     .hero-bt:focus {
         cursor: pointer;
          color: var(--first-button-color);
-        background: var(--button-active);
+        background: var(--accent-color);
         }
 
     
