@@ -81,10 +81,9 @@ li {
             margin: -1px;
     }
     
-.body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
+body{
+    font-family: 'Roboto', sans-serif;
     color:var(--second-text-color);
-    
     }
 
 
@@ -116,10 +115,11 @@ li {
         color: var(--header-text-color);
   }
   .ohne{
-font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    color: var(--header-text-color);
     }
   .idea {
         font-size: 14px;
@@ -146,6 +146,7 @@ font-weight: 500;
             border-radius: 4px;
       }
     .hero-btn{
+        font-family: inherit;
         font-weight: 700;
             font-size: 16px;
             line-height:1.87;
@@ -153,11 +154,13 @@ font-weight: 500;
         background: var(--accent-color);
     }
     .hero-bt{
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
+        background-color: var(--background-colorr-team);
 
     }
     .hero-bt:hover,
