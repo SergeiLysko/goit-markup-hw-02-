@@ -16,7 +16,8 @@
     --button-active:#188CE8;
 }
 
-.ul{
+ul{
+    
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -56,14 +57,19 @@ li {
     /* HADER */
     .container{
         width: 1200px;
-        margin: 0 auto;
-       
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        align-items: center;
+        /* padding-left: 0; */
     }
     .go{
         display: flex;
         align-items: center;
     }
         .header-container{
+            
              align-items: center;
             display: flex;
 
@@ -72,6 +78,18 @@ li {
             font-style: normal;
             display: flex;
             padding: 0 ;
+            margin: 0;
+        }
+        .pages2{
+            font-style: normal;
+                padding: 0;
+                margin: 0;
+        }
+        .pag{
+            margin-right: 30px;
+        }
+        .arbait{
+            padding-bottom: 94px;
         }
         .headeror{
             margin-right: 50px;
@@ -91,7 +109,7 @@ li {
 
         }
         .adretel{
-            margin-left: 331px;
+            margin-left: auto;
             padding: 0;
             display: flex;
         }
@@ -105,6 +123,7 @@ li {
                 font-size: 14px;
                 line-height: 1.71;
                 letter-spacing: 0.03em;
+                margin-bottom: 8px;
 
     }
 
@@ -113,20 +132,33 @@ li {
       /* hero */
 .hero{
     background-color: var(--background-colorr);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.win{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
   .first{
-    font-weight: 900;
+    
+    max-width: 900px;
         font-size: 44px;
-        line-height:1.36;
+        line-height: 1.36;
+        text-align: center;
         letter-spacing: 0.06em;
+        padding-bottom: 30px;
         text-transform: uppercase;
     color: var(--first-button-color);
   }  
+  .fill{
+    display: flex;
+  }
   .menu {
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         letter-spacing: 0.03em;
+        padding-bottom: 50px;
         color: var(--header-text-color);
   }
   .chpeta{
@@ -135,6 +167,7 @@ li {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        padding-bottom: 10px;
         color: var(--header-text-color);
   }
   .ohne{
@@ -142,6 +175,8 @@ li {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    padding-bottom: 10px;
+    padding-top: 30px;
     color: var(--header-text-color);
     }
   .idea {
@@ -154,6 +189,7 @@ li {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
     color: var(--second-text-color);
   }
   .hero-btn:hover,
@@ -162,15 +198,14 @@ li {
       background-color: var(--button-active);
     }
 
-      /* .button{
-        width: 200px;
-        height: 50px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-      } */
+      
     .hero-btn{
         font-family: inherit;
         font-weight: 700;
+        margin-right: auto;
+        margin-left: auto;
+       
+
             font-size: 16px;
             line-height:1.87;
         color: var(--fourth-text-color);
@@ -181,7 +216,6 @@ li {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
-        text-align: center;
         letter-spacing: 0.03em;
         background-color: var(--background-colorr-team);
 
@@ -208,7 +242,21 @@ li {
         line-height: 31px;
         letter-spacing: 0.03em;
         margin-right: 93px;
+        padding-top: 24px;
+            padding-bottom: 25px;
     }
+        .header-logo2 {
+            color: var(--accent-color);
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+           }
+           .adres{
+            margin-top: 20px;
+           }
+
     .header-adress:hover,
     .header-adress:focus {
         color: var(--accent-color);
@@ -232,12 +280,23 @@ li {
         }
     .mainteam{
         background-color: var(--background-colorr-team);
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
     .team{
+        margin-right: 30px;
         background-color: var(--first-button-color);
+    }
+
+    .teamp{
+         
+        background-color: var(--first-button-color);
+
     }
     
     .fot {
+            padding-top: 60px;
+            padding-bottom: 60px;
         background: var(--background-colorr);
     }
 .bang{
