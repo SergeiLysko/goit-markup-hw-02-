@@ -64,6 +64,15 @@ li {
         align-items: center;
         /* padding-left: 0; */
     }
+    .container1{
+        width: 1200px;
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            align-items: center;
+        text-align: center;
+    }
     .go{
         display: flex;
         align-items: center;
@@ -154,6 +163,7 @@ li {
     display: flex;
   }
   .menu {
+    text-align: center;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -204,8 +214,6 @@ li {
         font-weight: 700;
         margin-right: auto;
         margin-left: auto;
-       
-
             font-size: 16px;
             line-height:1.87;
         color: var(--fourth-text-color);
@@ -284,12 +292,13 @@ li {
         padding-bottom: 94px;
     }
     .team{
+        text-align: center;
         margin-right: 30px;
         background-color: var(--first-button-color);
     }
 
     .teamp{
-         
+        text-align: center;
         background-color: var(--first-button-color);
 
     }
