@@ -23,6 +23,10 @@ ul{
     padding: 0;
     list-style-type: none;
 }
+ul :last-child {
+    margin-right: 0%;
+}
+
 
 h1,
 h2,
@@ -99,9 +103,11 @@ li {
                 margin: 0;
         }
         .pag{
+            
             margin-right: 30px;
             flex-basis: 100%;
         }
+               
         .arbait{
             padding-bottom: 94px;
         }
@@ -193,8 +199,7 @@ li {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-bottom: 10px;
     color: var(--header-text-color);
     }
   .idea {
@@ -207,11 +212,12 @@ li {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
     color: var(--second-text-color);
     background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+  }
+  .kert{
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .hero-btn:hover,
   .hero-btn:focus {
@@ -322,14 +328,10 @@ li {
         text-align: center;
         margin-right: 30px;
         background-color: var(--first-button-color);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
     }
 
-    .teamp{
-        text-align: center;
-        background-color: var(--first-button-color);
-
-    }
-    
     .fot {
             padding-top: 60px;
             padding-bottom: 60px;
