@@ -37,6 +37,10 @@ li {
     list-style-type: none;
    
 }
+.immg{
+    display: block;
+    max-width: 100%;
+}
         .visually-hidden {
             position: absolute;
             white-space: nowrap;
@@ -61,6 +65,8 @@ li {
         margin-right: auto;
         margin-left: auto;
         align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
         /* padding-left: 0; */
     }
     .container1{
@@ -85,6 +91,7 @@ li {
             display: flex;
             padding: 0 ;
             margin: 0;
+            
         }
         .pages2{
             font-style: normal;
@@ -93,6 +100,7 @@ li {
         }
         .pag{
             margin-right: 30px;
+            flex-basis: 100%;
         }
         .arbait{
             padding-bottom: 94px;
@@ -107,6 +115,9 @@ li {
         }
     
         .header-link {
+            display: block;
+            padding-top: 24px;
+            padding-bottom: 25px;
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
@@ -140,6 +151,7 @@ li {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
 .win{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -151,7 +163,7 @@ li {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: var(--first-button-color);
   }  
@@ -164,7 +176,7 @@ li {
         font-size: 36px;
         line-height: 1.16;
         letter-spacing: 0.03em;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
         color: var(--header-text-color);
   }
   .chpeta{
@@ -173,7 +185,7 @@ li {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        padding-bottom: 10px;
+        margin-bottom: 10px;
         color: var(--header-text-color);
   }
   .ohne{
@@ -210,8 +222,8 @@ li {
     .hero-btn{
         font-family: inherit;
         font-weight: 700;
-        margin-right: auto;
-        margin-left: auto;
+        padding: 10px 32px ;
+        border: none;
             font-size: 16px;
             line-height:1.87;
         color: var(--fourth-text-color);
@@ -257,8 +269,7 @@ li {
         line-height: 31px;
         letter-spacing: 0.03em;
         margin-right: 93px;
-        padding-top: 24px;
-            padding-bottom: 25px;
+       ;
     }
         .header-logo2 {
             color: var(--accent-color);
@@ -277,17 +288,26 @@ li {
         color: var(--accent-color);
     }
         .header-adress{
+            display: block;
+                padding-top: 24px;
+                padding-bottom: 25px;
             font-weight: 500;
                 font-size: 14px;
                 line-height: 1.14;
                 letter-spacing: 0.02em;
-                margin-right: 50px;
+                
+        }
+        .rel{
+            margin-right: 50px;
         }
         .header-tel:hover,
         .header-tel:focus {
             color: var(--accent-color);
         }
         .header-tel{
+            display: block;
+                padding-top: 24px;
+                padding-bottom: 25px;
             font-weight: 500;
                 font-size: 14px;
                 line-height: 1.14;
