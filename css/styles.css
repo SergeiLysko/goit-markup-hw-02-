@@ -14,7 +14,8 @@
     --footer-colorr:rgba(255, 255, 255, 0.6);
     --back-colorr: #E5E5E5;
     --button-active:#188CE8;
-    --solid-color:#EEEEEE;;
+    --solid-color:#EEEEEE;
+    --solid2-color:#ECECEC;
 }
 
 ul{
@@ -25,6 +26,7 @@ ul{
 }
 ul :last-child {
     margin-right: 0%;
+    margin-bottom: 0%;
 }
 
 
@@ -41,7 +43,8 @@ li {
     list-style-type: none;
    
 }
-.immg{
+
+.img{
     display: block;
     max-width: 100%;
 }
@@ -64,6 +67,9 @@ li {
         }
 
     /* HADER */
+    header{
+        border-bottom: 1px var(--solid2-color);
+    }
     .container{
         width: 1200px;
         margin-right: auto;
