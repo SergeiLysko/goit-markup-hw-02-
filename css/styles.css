@@ -44,7 +44,7 @@ li {
    
 }
 
-.img{
+img{
     display: block;
     max-width: 100%;
 }
@@ -397,6 +397,7 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
+
 .mainli{
     margin-right: 30px;
     margin-bottom: 30px;
