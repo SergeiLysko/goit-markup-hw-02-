@@ -28,6 +28,9 @@ ul :last-child {
     margin-right: 0%;
     margin-bottom: 0%;
 }
+/* .mainli:nth-child(3n) {
+    margin-right: 0%;
+} */
 
 
 h1,
@@ -47,6 +50,7 @@ li {
 img{
     display: block;
     max-width: 100%;
+    height: auto;
 }
         .visually-hidden {
             position: absolute;
@@ -367,25 +371,23 @@ img{
 
 
 .main-port{
-    font-weight: 700;
+        font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        padding-left: 24px;
-        padding-top: 20px;
-        padding-bottom: 4px;
+        margin-bottom: 4px;
         color: var(--header-text-color);
 }
 .main-right{
-    padding-left: 24px;
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
-        padding-bottom: 20px;
         color: var(--second-text-color);
 }
 
 .main-right-plus{
+    margin-top: 94px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
@@ -404,16 +406,9 @@ img{
     background: var(--first-button-color);
         border: 1px solid var(--solid-color);
 }
-.mai{
-    margin-bottom: 30px;
-    background: var(--first-button-color);
-        border: 1px solid var(--solid-color);
-
-}
-.laste{
-    margin-bottom: 94px;
-}
-.raf{
-    /* background: var(--first-button-color);
-    border: 1px solid var(--solid-color); */
+.isu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
