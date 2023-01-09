@@ -28,9 +28,8 @@ ul :last-child {
     margin-right: 0%;
     margin-bottom: 0%;
 }
-/* .mainli:nth-child(3n) {
-    margin-right: 0%;
-} */
+
+
 
 
 h1,
@@ -398,17 +397,25 @@ img{
 .main-list{
     display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
 }
 
 .mainli{
     margin-right: 30px;
     margin-bottom: 30px;
     background: var(--first-button-color);
-        border: 1px solid var(--solid-color);
+    border: 1px solid var(--solid-color);
 }
+.main-list > .mainli {
+    flex-basis: calc(100%/3 - 30px);}
+
 .isu{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
+}
+.laste{
+    padding-bottom: 94px;
 }
