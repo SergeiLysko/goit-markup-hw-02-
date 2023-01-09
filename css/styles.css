@@ -24,10 +24,7 @@ ul{
     padding: 0;
     list-style-type: none;
 }
-ul :last-child {
-    margin-right: 0%;
-    margin-bottom: 0%;
-}
+
 
 
 
@@ -70,8 +67,8 @@ img{
         }
 
     /* HADER */
-    header{
-        border-bottom: 1px var(--solid2-color);
+    header {
+        border-bottom:  1px solid var(--solid2-color);
     }
     .container{
         width: 1200px;
@@ -131,8 +128,8 @@ img{
     
         .header-link {
             display: block;
-            padding-top: 24px;
-            padding-bottom: 25px;
+            padding-top: 32px;
+            padding-bottom: 32px;
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
@@ -241,6 +238,7 @@ img{
         border: none;
             font-size: 16px;
             line-height:1.87;
+            border-radius: 4px;
         color: var(--fourth-text-color);
         background: var(--accent-color);
     }
@@ -304,8 +302,8 @@ img{
     }
         .header-adress{
             display: block;
-                padding-top: 24px;
-                padding-bottom: 25px;
+                padding-top: 32px;
+                padding-bottom: 32px;
             font-weight: 500;
                 font-size: 14px;
                 line-height: 1.14;
@@ -321,8 +319,8 @@ img{
         }
         .header-tel{
             display: block;
-                padding-top: 24px;
-                padding-bottom: 25px;
+                padding-top: 32px;
+                padding-bottom: 32px;
             font-weight: 500;
                 font-size: 14px;
                 line-height: 1.14;
@@ -385,10 +383,12 @@ img{
 }
 
 .main-right-plus{
-    margin-top: 94px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+}
+.main-right-plus{
+    
 }
 .main-bt{
     padding-top: 94px;
@@ -405,17 +405,21 @@ img{
     margin-right: 30px;
     margin-bottom: 30px;
     background: var(--first-button-color);
-    border: 1px solid var(--solid-color);
+    
 }
 .main-list > .mainli {
     flex-basis: calc(100%/3 - 30px);}
 
 .isu{
+    border-left: 1px solid var(--solid-color);
+    border-right: 1px solid var(--solid-color);
+    border-bottom: 1px solid var(--solid-color);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
 }
 .laste{
+    padding-top: 94px;
     padding-bottom: 94px;
 }
