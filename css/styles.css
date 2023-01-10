@@ -84,34 +84,34 @@ img{
             margin-right: auto;
             margin-left: auto;
             align-items: center;
-        text-align: center;
+            text-align: center;
     }
     .go{
         display: flex;
         align-items: center;
     }
         .header-container{
-            
              align-items: center;
-            display: flex;
+             display: flex;
 
         }
         .pages {
             font-style: normal;
             display: flex;
-            padding: 0 ;
-            margin: 0;
-            
         }
+        .pages :last-child {
+             margin-right: 0px;
+         }
         .pages2{
             font-style: normal;
-                padding: 0;
-                margin: 0;
+        }
+        .pages2 :last-child {
+            margin-bottom: 0px;
         }
         .pag{
-            
             margin-right: 30px;
             flex-basis: 100%;
+            
         }
                
         .arbait{
@@ -139,9 +139,11 @@ img{
         }
         .adretel{
             margin-left: auto;
-            padding: 0;
             display: flex;
         }
+        .adretel :last-child {
+             margin-right: 0px;
+         }
 .link {
     text-decoration: none;}
     
@@ -154,8 +156,7 @@ img{
                 margin-bottom: 8px;
     }
 
-
-
+   
       /* hero */
 
 .hero{
@@ -387,9 +388,12 @@ img{
     display: flex;
     justify-content: center;
 }
-.main-right-plus{
+.main-right-plus :last-child {
+     margin-right: 0px;
+ }
+
     
-}
+
 .main-bt{
     padding-top: 94px;
     padding-bottom: 50px;
@@ -397,18 +401,15 @@ img{
 .main-list{
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
+    gap: 30px;
 }
 
 .mainli{
-    margin-right: 30px;
-    margin-bottom: 30px;
     background: var(--first-button-color);
     
 }
 .main-list > .mainli {
-    flex-basis: calc(100%/3 - 30px);}
+    flex-basis: calc(100% - 60px)/3;}
 
 .isu{
     border-left: 1px solid var(--solid-color);
