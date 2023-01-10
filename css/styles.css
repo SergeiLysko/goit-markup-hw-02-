@@ -19,15 +19,10 @@
 }
 
 ul{
-    
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-
-
-
-
 
 h1,
 h2,
@@ -38,9 +33,9 @@ h6,
 p {
     margin: 0 auto;
 }
+
 li {
     list-style-type: none;
-   
 }
 
 img{
@@ -81,20 +76,30 @@ img{
     }
     .container1{
         width: 1200px;
-            margin-right: auto;
-            margin-left: auto;
-            align-items: center;
-            text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        text-align: center;
     }
+    
+        .header-container {
+        align-items: center;
+        display: flex;
+        }
     .go{
         display: flex;
         align-items: center;
     }
-        .header-container{
-             align-items: center;
-             display: flex;
-
+        .header-logo {
+        color: var(--accent-color);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        margin-right: 93px;
         }
+        
         .pages {
             font-style: normal;
             display: flex;
@@ -111,7 +116,6 @@ img{
         .pag{
             margin-right: 30px;
             flex-basis: 100%;
-            
         }
                
         .arbait{
@@ -144,10 +148,38 @@ img{
         .adretel :last-child {
              margin-right: 0px;
          }
+                 .header-logo2 {
+                     color: var(--accent-color);
+                     font-family: 'Raleway', sans-serif;
+                     font-weight: 700;
+                     font-size: 26px;
+                     line-height: 31px;
+                     letter-spacing: 0.03em;
+                 }
+        
+                 .adres {
+                     margin-top: 20px;
+                 }
+        
+.header-adress:hover,
+.header-adress:focus {
+    color: var(--accent-color);
+                 }
+        
+.header-adress {
+     display: block;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+                    
+                 }
 .link {
     text-decoration: none;}
     
-    .list{
+.list{
         font-style: normal;
             font-weight: 400;
                 font-size: 14px;
@@ -165,12 +197,7 @@ img{
     padding-bottom: 200px;
 }
 
-.win{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
   .first{
-    
     max-width: 696px;
     font-size: 44px;
     line-height: 1.36;
@@ -180,6 +207,10 @@ img{
     text-transform: uppercase;
     color: var(--first-button-color);
   }  
+  .win {
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
   .fill{
     display: flex;
   }
@@ -275,42 +306,8 @@ img{
         .studio2 {
             color: var(--first-button-color);
         }
-    .header-logo{
-        color: var(--accent-color);
-        font-family: 'Raleway',sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
-        margin-right: 93px;
-       ;
-    }
-        .header-logo2 {
-            color: var(--accent-color);
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 31px;
-            letter-spacing: 0.03em;
-           }
-           .adres{
-            margin-top: 20px;
-           }
-
-    .header-adress:hover,
-    .header-adress:focus {
-        color: var(--accent-color);
-    }
-        .header-adress{
-            display: block;
-                padding-top: 32px;
-                padding-bottom: 32px;
-            font-weight: 500;
-                font-size: 14px;
-                line-height: 1.14;
-                letter-spacing: 0.02em;
-                
-        }
+    
+        
         .rel{
             margin-right: 50px;
         }
