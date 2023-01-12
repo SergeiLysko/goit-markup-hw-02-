@@ -187,14 +187,33 @@ img{
                 letter-spacing: 0.03em;
                 margin-bottom: 8px;
     }
-
+.ico{
+    align-items: center;
+    display: flex;
+}
+.envel{
+    margin-right: 10px;
+    fill: var(--second-text-color);
+}
+ .envel:hover,
+ .envel:focus {
+    cursor: pointer;
+   fill : var(--accent-color);
+ }
    
       /* hero */
 
 .hero{
+    
     background-color: var(--background-colorr);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url("/images/Img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+
+
 }
 
   .first{
@@ -404,6 +423,9 @@ img{
 .mainli{
     background: var(--first-button-color);
     
+}
+.mainli:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .main-list > .mainli {
     flex-basis: calc(100% - 60px)/3;}
