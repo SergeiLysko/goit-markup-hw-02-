@@ -108,6 +108,7 @@ img{
         .pages {
             font-style: normal;
             display: flex;
+           
         }
         .pages :last-child {
              margin-right: 0px;
@@ -119,6 +120,7 @@ img{
             margin-bottom: 0px;
         }
         .pag{
+           
             margin-right: 30px;
             flex-basis: 100%;
         }
@@ -248,6 +250,7 @@ img{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 10px;
+        margin-top: 30px;
         color: var(--header-text-color);
   }
   .ohne{
@@ -458,16 +461,21 @@ img{
         border-radius: 4px;
 }
 .ulta{
+    padding: 25px;
     width: 270px;
-        height: 120px;
-        background: var(--background-colorr-team);
-            border-radius: 4px;
-            margin-bottom: 30px;
+    height: 120px;
+    background: var(--background-colorr-team);
+    border-radius: 4px;
+    
 }
 
 .fit{
     display: flex;
     align-items:baseline;
+}
+.port{
+    display: block;
+    margin: auto;
 }
 .envel {
     margin-right: 10px;
