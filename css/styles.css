@@ -124,8 +124,14 @@ img{
             margin-right: 30px;
             flex-basis: 100%;
         }
+                .pagi {
+        
+                    margin-right: 30px;
+                    flex-basis: 100%;
+                }
                
         .arbait{
+            padding-top: 94px;
             padding-bottom: 94px;
         }
         .headeror{
@@ -229,7 +235,7 @@ img{
   }  
   .win {
       padding-top: 94px;
-      padding-bottom: 94px;
+      
   }
   .fill{
     display: flex;
