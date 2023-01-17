@@ -75,7 +75,7 @@ img{
         align-items: center;
         padding-left: 15px;
         padding-right: 15px;
-        /* padding-left: 0; */
+    
     }
     .container1{
         width: 1200px;
@@ -116,7 +116,6 @@ img{
             margin-bottom: 0px;
         }
         .pag{
-            /* margin-right: 30px; */
             flex-basis: 100%;
         }
                 .pagi {
@@ -451,15 +450,13 @@ img{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.loj{
+.loji{
     display: flex;
     gap: 30px;
-}
-.loji{
     width: 170px;
-        height: 92px;
+    height: 92px;
     border: 1px solid var(--regular-color);
-        border-radius: 4px;
+    border-radius: 4px;
 }
 .ulta{
     padding: 25px;
@@ -469,7 +466,6 @@ img{
     border-radius: 4px;
     
 }
-
 .fit{
     display: flex;
     align-items:baseline;
@@ -479,9 +475,7 @@ img{
     display: block;
     margin: auto;
 }
-
 .comt{
-    /* margin-left: 156px; */
     font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -530,4 +524,7 @@ gap: 10px;
 }
 .envel{
     fill: var(--regular-color);
+}
+.envelope {
+    margin-right: 10px;
 }
