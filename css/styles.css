@@ -108,9 +108,7 @@ img{
             display: flex;
             gap: 30px;
         }
-        /* .pages :last-child {
-             margin-right: 0px;
-         } */
+       
         .pages2{
             font-style: normal;
         }
