@@ -62,9 +62,7 @@ img{
             font-family: 'Roboto', sans-serif;
             color: var(--second-text-color);
         }
-        .socsait{
-            display: flex;
-        }
+        
 
     /* HADER */
     header {
@@ -108,11 +106,11 @@ img{
         .pages {
             font-style: normal;
             display: flex;
-           
+            gap: 30px;
         }
-        .pages :last-child {
+        /* .pages :last-child {
              margin-right: 0px;
-         }
+         } */
         .pages2{
             font-style: normal;
         }
@@ -120,8 +118,7 @@ img{
             margin-bottom: 0px;
         }
         .pag{
-           
-            margin-right: 30px;
+            /* margin-right: 30px; */
             flex-basis: 100%;
         }
                 .pagi {
@@ -480,23 +477,11 @@ img{
     align-items:baseline;
 }
 .port{
+    margin: auto;
     display: block;
     margin: auto;
 }
-.envel {
-    margin-right: 10px;
-    fill: var(--second-text-color);
-}
 
-.envel:hover,
-.envel:focus {
-    cursor: pointer;
-    fill: var(--accent-color);
-}
-.envel-q{
-        fill: var(--fourth-text-color);
-
-}
 .comt{
     /* margin-left: 156px; */
     font-style: normal;
@@ -510,20 +495,6 @@ img{
     margin-top: 20px;
     display: flex;
 }
-.soc{
-    width: 44px;
-    height: 44px;
-   
-}
-.cos{
-    border-radius: 50%;
-   
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    border-color: var(--icon-back)
-}
   .container-foter{
     width: 1200px;
         /* margin-right: auto;
@@ -532,3 +503,33 @@ img{
         text-align: center; */
         display: flex;
     }
+.envel-q {
+    fill: var(--fourth-text-color);
+}
+.socials-item{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.social-list{
+    width: 44px;
+    height: 44px;
+
+}
+.soc{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.soc:hover {
+    fill: var(--first-button-color);
+    background-color: var(--accent-color);
+   
+}
+.envel{
+    fill: var(--regular-color);
+}
