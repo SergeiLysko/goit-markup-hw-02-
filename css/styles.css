@@ -528,3 +528,7 @@ gap: 10px;
 .envelope {
     margin-right: 10px;
 }
+.envelope:hover{
+    cursor: pointer;
+    fill: var(--accent-color);
+}
