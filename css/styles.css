@@ -19,7 +19,10 @@
     --regular-color:#AFB1B8;
     --icon-back:rgba(255, 255, 255, 0.1);
     --hero-color:rgba(47, 48, 58, 0.4);
+    --bekgr-color: #C4C4C4;
+    --inlgr:rgba(47, 48, 58, 0.4);
 }
+
 
 ul{
     margin: 0;
@@ -155,10 +158,12 @@ img{
         .adretel{
             margin-left: auto;
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .adretel :last-child {
+        /* .adretel:last-child {
              margin-right: 0px;
-         }
+         } */
                  .header-logo2 {
                      color: var(--accent-color);
                      font-family: 'Raleway', sans-serif;
@@ -200,25 +205,24 @@ img{
                 letter-spacing: 0.03em;
                 margin-bottom: 8px;
     }
-.ico{
-    align-items: center;
-    display: flex;
-}
 
-   
       /* hero */
 
 .hero{
     max-width: 1600px;
-    background-color: var(--hero-color);
+    background-color: var(--bekgr-color);
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url("../images/img.jpg");
+    background-image: linear-gradient(
+    to right, 
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/img.jpg) ; 
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
-        margin-right: auto;
-            margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -299,6 +303,7 @@ img{
             border-radius: 4px;
         color: var(--fourth-text-color);
         background: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 
         .hero-bt:hover,
@@ -337,6 +342,7 @@ img{
         
         .rel{
             margin-right: 50px;
+            justify-content: center;
         }
         .header-tel:hover,
         .header-tel:focus {
@@ -459,8 +465,9 @@ img{
 
 
 .ulta{
-    padding: 25px;
-    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 120px;
     background: var(--background-colorr-team);
     border-radius: 4px;
@@ -470,11 +477,7 @@ img{
     display: flex;
     align-items:baseline;
 }
-.port{
-    margin: auto;
-    display: block;
-    margin: auto;
-}
+
 .comt{
     font-style: normal;
         font-weight: 700;
@@ -506,13 +509,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 10px;
-padding-bottom: 30px;
+margin-top: 16px;
 }
 .social-list{
     width: 44px;
     height: 44px;
 
 }
+
 .soc{
     align-items: center;
     justify-content: center;
@@ -522,7 +526,8 @@ padding-bottom: 30px;
     border-radius: 50%;
     
 }
-.soc:hover {
+.soc:hover ,
+.soc:focus {
     fill: var(--first-button-color);
     background-color: var(--accent-color);
    
@@ -530,8 +535,9 @@ padding-bottom: 30px;
 .envel{
     fill: var(--regular-color);
 }
-.envelope {
+.envelope{
     margin-right: 10px;
+    fill:currentColor;
 }
 .envelope:hover{
     cursor: pointer;
