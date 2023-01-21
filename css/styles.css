@@ -113,7 +113,7 @@ img{
         .pages {
             font-style: normal;
             display: flex;
-            gap: 30px;
+            gap: 50px;
         }
        
         .pages2{
@@ -135,9 +135,7 @@ img{
             padding-top: 94px;
             padding-bottom: 94px;
         }
-        .headeror{
-            margin-right: 50px;
-        }
+       
         
         .header-link:hover,
         .header-link:focus {
@@ -161,9 +159,9 @@ img{
             justify-content: center;
             align-items: center;
         }
-        /* .adretel:last-child {
+        .rel:last-child {
              margin-right: 0px;
-         } */
+         }
                  .header-logo2 {
                      color: var(--accent-color);
                      font-family: 'Raleway', sans-serif;
@@ -185,15 +183,14 @@ img{
                  }
         
 .header-adress {
-     display: block;
+     display: flex;
+    align-items: center;
      padding-top: 32px;
      padding-bottom: 32px;
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
-     letter-spacing: 0.02em;
-                    
-                 }
+     letter-spacing: 0.02em; }
 .link {
     text-decoration: none;}
     
@@ -364,7 +361,6 @@ img{
     }
     .team{
         text-align: center;
-        margin-right: 30px;
         background-color: var(--first-button-color);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
@@ -394,6 +390,8 @@ img{
     color: var(--second-text-color);
 }
 .header-tel {
+    display: flex;
+    align-items: center;
     color: var(--second-text-color);
 }
 
@@ -514,8 +512,8 @@ margin-top: 16px;
 .social-list{
     width: 44px;
     height: 44px;
-
 }
+
 
 .soc{
     align-items: center;
@@ -532,17 +530,16 @@ margin-top: 16px;
     background-color: var(--accent-color);
    
 }
-.envel{
+.envel {
     fill: var(--regular-color);
 }
+
+
 .envelope{
     margin-right: 10px;
     fill:currentColor;
 }
-.envelope:hover{
-    cursor: pointer;
-    fill: var(--accent-color);
-}
+
 .loj {
   
     justify-content: center;
@@ -559,6 +556,7 @@ margin-top: 16px;
     gap: 30px;
     width: 170px;
     height: 92px;
+    fill: var(--regular-color);
     border: 1px solid var(--regular-color);
     border-radius: 4px;
 }
@@ -569,6 +567,7 @@ margin-top: 16px;
         border: 1px solid var(--accent-color);
 
 }
+/* .kunden:hover { */
 
 .kunden{
     
@@ -576,9 +575,6 @@ margin-top: 16px;
         justify-content: center;
         align-items: center;
         gap: 30px;
-        width: 170px;
-        height: 92px;
-        /* border: 1px solid var(--regular-color); */
         border-radius: 4px;
     fill:var(--regular-color)
 }
@@ -617,17 +613,17 @@ margin-top: 16px;
         height: 44px;
        
 }
-.social-lis:hover 
+/* .social-lis:hover 
 .social-lis:focus {
     fill: var(--first-button-color);
     background: var(--accent-color);
-}
-.dav:hover,
+} */
+/* .dav:hover,
 .dav:focus {
     fill:var(--first-button-color);
     background-color: var(--accent-color);
 
-}
+} */
 .raf{
     display: block;
 }
