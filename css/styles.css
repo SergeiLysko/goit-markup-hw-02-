@@ -532,11 +532,6 @@ margin-top: 16px;
     background-color: var(--accent-color);
    
 }
-/* .envel {
-    fill: var(--regular-color);
-} */
-
-
 .envelope{
     margin-right: 10px;
     fill:currentColor;
