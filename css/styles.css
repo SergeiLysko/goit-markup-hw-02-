@@ -521,7 +521,9 @@ margin-top: 16px;
     display: flex;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 50%;  
+    fill: var(--regular-color);
+        
     
 }
 .soc:hover ,
@@ -530,9 +532,9 @@ margin-top: 16px;
     background-color: var(--accent-color);
    
 }
-.envel {
+/* .envel {
     fill: var(--regular-color);
-}
+} */
 
 
 .envelope{
