@@ -94,6 +94,7 @@ img{
     
         .header-container {
         align-items: center;
+        justify-content: center;
         display: flex;
         }
     .go{
@@ -177,6 +178,8 @@ img{
                      margin-top: 20px;
                  }
 .header-adress {
+    display: flex;
+    justify-content: center;
     align-items: center;
      padding-top: 32px;
      padding-bottom: 32px;
@@ -192,6 +195,9 @@ img{
         }
         
          .header-tel {
+            display: flex;
+        justify-content: center;
+        align-items: center;
              padding-top: 32px;
              padding-bottom: 32px;
              font-weight: 500;
@@ -351,8 +357,8 @@ img{
     
         
         .rel{
-            margin-right: 50px;
             justify-content: center;
+            margin-right: 50px;
         }
         
     .mainteam{
@@ -529,39 +535,44 @@ margin-top: 16px;
     gap: 30px;
     display: flex;
 }
-
-.loji {
+.lord{
+    border: 1px solid var(--regular-color);
+    width: 170px;
+    height: 92px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
+    fill:var(--regular-color)
+}
+.lord:hover{
+    fill: var(--accent-color);
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.loji {
+    
     gap: 30px;
     width: 170px;
     height: 92px;
-    fill: var(--regular-color);
-    border: 1px solid var(--regular-color);
-    border-radius: 4px;
-}
-.loji:hover,
-.loji:focus{
-    cursor: pointer;
-        fill: var(--accent-color);
-        border: 1px solid var(--accent-color);
 
 }
+
 
 .kunden{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 30px;
-        border-radius: 4px;
+       
+       
 }
-.loj :hover {
+/* .loj :hover {
     cursor: pointer;
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 
-}
+} */
 .so {
     align-items: center;
     justify-content: center;
