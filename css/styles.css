@@ -543,15 +543,14 @@ margin-top: 16px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    fill:var(--regular-color)
+    color:var(--regular-color)
 }
 .lord:hover{
     fill: var(--accent-color);
     color: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    border-color: 1px solid var(--accent-color);
 }
 .loji {
-    
     gap: 30px;
     width: 170px;
     height: 92px;
@@ -560,19 +559,8 @@ margin-top: 16px;
 
 
 .kunden{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-       
-       
+    fill: currentColor;
 }
-/* .loj :hover {
-    cursor: pointer;
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
-
-} */
 .so {
     align-items: center;
     justify-content: center;
