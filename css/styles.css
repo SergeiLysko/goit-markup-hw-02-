@@ -545,13 +545,13 @@ margin-top: 16px;
     border-radius: 4px;
     color:var(--regular-color)
 }
-.lord:hover{
+.lord:hover,
+.lord:focus{
     fill: var(--accent-color);
     color: var(--accent-color);
     border-color: 1px solid var(--accent-color);
 }
 .loji {
-    gap: 30px;
     width: 170px;
     height: 92px;
 
